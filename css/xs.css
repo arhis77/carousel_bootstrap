@@ -1,0 +1,14 @@
+
+@media (max-width: 767px) {
+    .slider-001 #carousel .carousel-inner .item .text {
+        position: relative;
+        z-index: 2;
+    }
+    .slider-001 #carousel .carousel-inner .item .text,
+    .slider-001 #carousel .carousel-inner .item .row .buttons  {
+        text-align: center;
+    }
+    .slider-001 #carousel .carousel-inner .item .row .buttons .btn {
+        height: 37px;
+    }
+}

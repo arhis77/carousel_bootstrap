@@ -1,0 +1,206 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-orange {
+    background-color: #ff891e;
+    color: white;
+}
+.btn-orange:hover,
+.btn-orange:focus {
+    color: white;
+    background-color: rgba(255, 139, 31, 0.8);
+    transition: .2s;
+    border: none;
+    outline: none;
+}
+.btn-border {
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+}
+.slider-001,
+.slider-001 #carousel .carousel-inner .item {
+    height: 100vh;
+    width: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+.slider-001 #carousel .carousel-inner .item {
+    padding-top: 10em;
+}
+.slider-001 #carousel .carousel-inner .item .item_image {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    padding-top: 10em;
+    vertical-align: middle;
+    top: 0;
+}
+.slider-001 #carousel .carousel-inner .item .caption {
+    padding-left: 0;
+}
+.slider-001 #carousel .carousel-inner .item .text {
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 0;
+}
+.slider-001 #carousel .carousel-inner .item .text.desc {
+    margin-bottom: 8px;
+}
+.slider-001 #carousel .carousel-inner .item .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 0;
+}
+.slider-001 #carousel .carousel-inner .item .text p {
+    font-size: 22px;
+    font-weight: 400;
+}
+.slider-001 #carousel .carousel-inner .item .row .buttons .btn {
+    width: 128px;
+    text-transform: uppercase;
+}
+.slider-001 #carousel .carousel-inner .item .row .buttons .btn.btn-orange {
+    margin-right: 18px;
+}
+
+.slider-001 #thumbcarousel {
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+}
+.slider-001 #thumbcarousel .carousel-inner .item {
+     text-align: center;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+    padding: 0 10px;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 5px;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb.active .inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.44);
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner img {
+    float: left;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner .text {
+    text-align: left;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner .text span {
+    font-size: 9px;
+    font-weight: 400;
+}
+.slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner .text p {
+    font-size: 10px;
+    font-weight: 700;
+}
+.carousel-control {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: none;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    top: 23%;
+}
+.carousel-caption,
+.carousel-control .fa {
+    font: normal normal normal 30px/26px FontAwesome;
+    text-transform: uppercase;
+}
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: auto;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    width: auto;
+    height: auto;
+    transition: all .2s;
+}
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-control:active  {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.left {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 34px 36px 34px 32px;
+}
+.carousel-control.right {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 34px 27px 34px 40px;
+}
+
+.slider-001 .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-color: #282828;
+    margin-right: 12px;
+}
+.slider-001 .carousel-indicators li.active {
+    background-color: #282828;
+    margin: 1px;
+    margin-right: 12px;
+    border: 1px solid #282828;
+}
+.slider-001 .carousel-indicators li:last-child {
+    margin-right: 0;
+}
+
+/* PRELODER */
+.preloder {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #c4cdd6;
+    top: 0;
+    left: 0;
+    z-index: 17;
+}
+.preloder.remove {
+    opacity: 0;
+}
+.preloder .inner {
+    display: table-cell;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+}
+.preloder .inner .btn,
+.preloder .inner .btn:hover,
+.preloder .inner .btn:focus {
+    color: white;
+    border: none;
+    outline: none;
+}
+.preloder .inner .btn.focus {
+    background-color: rgba(255, 139, 31, 0.8);
+}
+.preloder .inner .btn {
+    text-transform: uppercase;
+    padding: 14px 24px;
+}

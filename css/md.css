@@ -1,0 +1,18 @@
+@media (max-width: 991px) {
+    .slider-001 #carousel .carousel-inner .item .text h2 {
+        font-size: 30px;
+    }
+    .slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb {
+        padding: 2px;
+    }
+    .slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner {
+        padding: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        height: 62px;
+    }
+    .slider-001 #thumbcarousel .carousel-inner .item .thumbs .thumb .inner .text p {
+        line-height: 1;
+    }
+}
